@@ -62,12 +62,14 @@ object banquito {
 }
 
 object cajita {
-    var cosa = arito
+    var objeto = arito
     method color() = rojo
     method material() = cobre
-    method peso() = 400 + cosa.peso()
+    method peso() {
+        return 400 + objeto.peso()
+    }
 
-    method cambiarCosa(nuevaCosa) { 
-        cosa = nuevaCosa 
+    method guardarAdentro(nuevoObjeto) { 
+        objeto = nuevoObjeto 
     }
 }
