@@ -11,7 +11,7 @@ object pelota {
     method peso() = 1300
 }
 
-object muñeco {
+object munieco {
     var peso = 500
     method color() = celeste
     method material() = vidrio

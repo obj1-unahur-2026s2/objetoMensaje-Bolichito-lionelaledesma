@@ -1,41 +1,41 @@
 //COLORES
 object celeste {
-    method esFuerte() = false
+    method esDeColorFuerte() = false
 }
 
 object naranja {
-    method esFuerte() = true
+    method esDeColorFuerte() = true
 }
 
 object pardo {
-    method esFuerte() = false
+    method esDeColorFuerte() = false
 }
 
 object rojo {
-    method esFuerte() = true
+    method esDeColorFuerte() = true
 }
 
 object verde {
-    method esFuerte() = true
+    method esDeColorFuerte() = true
 }
 
 //MATERIALES
 object cobre {
-    method brilla() = true
+    method esDeMaterialQueBrilla() = true
 }
 
 object vidrio {
-    method brilla() = true
+    method esDeMaterialQueBrilla() = true
 }
 
 object madera {
-    method brilla() = false
+    method esDeMaterialQueBrilla() = false
 }
 
 object lino {
-    method brilla() = false
+    method esDeMaterialQueBrilla() = false
 }
 
 object cuero {
-    method brilla() = false
+    method esDeMaterialQueBrilla() = false
 }
